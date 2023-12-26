@@ -1,0 +1,15 @@
+footer {
+  background-image: url(/image/footer.svg);
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: 200px;
+  background-color: black;
+  width: 100vw;
+  z-index: 30;
+}
+@media screen and (max-width: 760px) {
+  footer {
+    height: 150px;
+    background-color: black;
+  }
+}
